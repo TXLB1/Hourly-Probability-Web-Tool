@@ -1,0 +1,1 @@
+document.getElementById('fileInput').addEventListener('change',e=>{const c=document.getElementById('heatmapCanvas').getContext('2d');c.fillStyle='#9fb1c1';c.fillText('JSONs loaded: '+e.target.files.length,20,30)});
